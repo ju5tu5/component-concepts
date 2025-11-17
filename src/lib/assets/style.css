@@ -1,0 +1,34 @@
+:root {
+  --color-blue: #050542;
+  --color-green: #66e5bf;
+  --color-green-oklch: oklch(83.97% 0.126 170.74);
+  --color-purple: #a675f5;
+  --color-purple-oklch: oklch(66.85% 0.186 298.97);
+  --color-white: #fff;
+  --color-highlight: #fffc86;
+}
+
+html,
+body {
+  --background: var(--color-white);
+  --color: var(--color-blue);
+  --highlight: var(--color-highlight);
+
+  /* Don't overwrite these! */
+  --body-background: var(--background);
+  --body-color: var(--color);
+
+  background-color: var(--body-background);
+  color: var(--body-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
