@@ -15,5 +15,14 @@
 {@render children()}
 
 <footer>
-	<Nav/>
+	<p><span>&copy;</span> Copyleft, all wrongs reversed.</p>
 </footer>
+
+<style>
+	footer span {
+		display: inline-block;
+		margin: 0; padding: 0;
+		transform-origin: 55% 52%;
+		transform: rotate(180deg);
+	}
+</style>

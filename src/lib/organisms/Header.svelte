@@ -3,10 +3,9 @@
 </script>
 
 <header>
+
   <FdndLogo>
-  {#snippet subtitle()}
-  Component Concepts
-  {/snippet}
+    {#snippet subtitle()}Component Concepts{/snippet}
   </FdndLogo>
 
   <Nav />
